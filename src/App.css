@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,71 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+
+/* Navbar styling  */
+/* Navbar.css */
+
+.navbar {
+  display: block;
+  background-color: #f3e1eb;
+  color: #e17d9a;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandLogo {
+  flex: 1; /* Take up available space to center the brand logo */
+  text-align: center; /* Center horizontally */
+}
+
+.nav-right {
+  flex: 1; /* Take up available space to right-align navigation items */
+  text-align: right; /* Right-align horizontally */
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #e17d9a;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #e17d9a;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ff5733;
+}
+
+.logo{
+  width: 50px;
+  height: auto;
+}
+
+.nav-right{
+  float: right;
 }
